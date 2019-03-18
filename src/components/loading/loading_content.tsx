@@ -34,10 +34,11 @@ export const EuiLoadingContent: FunctionComponent<
 
         <linearGradient
           id="euiLoadingContent__gradient"
+          gradientTransform="rotate(20)"
           x1="0%"
           x2="100%"
-          y1="38%"
-          y2="40%">
+          y1="0%"
+          y2="0%">
           <stop
             className="euiLoadingContent__gradient--start-end"
             offset="0%"
@@ -49,9 +50,9 @@ export const EuiLoadingContent: FunctionComponent<
           />
           <animate
             attributeName="x2"
-            dur="900ms"
-            from="20%"
-            to="300%"
+            dur="2000ms"
+            from="-100%"
+            to="900%"
             repeatCount="indefinite"
           />
         </linearGradient>

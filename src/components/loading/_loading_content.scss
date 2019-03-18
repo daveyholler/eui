@@ -4,7 +4,7 @@
 
 .euiLoadingContent__single-line {
   width: 100%;
-  fill: shadeOrTint($euiColorLightShade, 0%, 15%);
+  fill: shadeOrTint($euiColorLightShade, 0%, 25%);
 
   &:last-child {
     width: 75%;
@@ -12,11 +12,11 @@
 }
 
 .euiLoadingContent__gradient--start-end {
-  stop-color: shadeOrTint($euiColorLightShade, 0%, 35%);
+  stop-color: shadeOrTint($euiColorLightShade, 0%, 20%);
   stop-opacity: 1;
 }
 
 .euiLoadingContent__gradient--middle {
-  stop-color: shadeOrTint($euiColorLightestShade, 0%, 15%);
+  stop-color: tint($euiColorLightShade, 30%);
   stop-opacity: 1;
 }
