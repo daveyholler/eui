@@ -805,12 +805,12 @@
     "highlighting": "string",
     "loc": {
       "start": {
-        "line": 106,
-        "column": 10
+        "line": 101,
+        "column": 6
       },
       "end": {
-        "line": 106,
-        "column": 80
+        "line": 101,
+        "column": 74
       }
     },
     "filepath": "src/components/stat/stat.tsx"

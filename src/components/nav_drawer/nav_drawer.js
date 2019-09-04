@@ -265,8 +265,8 @@ export class EuiNavDrawer extends Component {
                   iconSize: 's',
                   'aria-label': sideNavLockAriaLabel,
                   title: this.state.isLocked
-                    ? sideNavLockExpanded
-                    : sideNavLockCollapsed,
+                    ? sideNavLockCollapsed
+                    : sideNavLockExpanded,
                   'aria-checked': this.state.isLocked ? true : false,
                   role: 'switch',
                 }}
