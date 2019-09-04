@@ -32,9 +32,7 @@ const controls: Control[] = [
 describe('EuiControlBar', () => {
   test('is rendered', () => {
     const component = takeMountedSnapshot(
-      mount(
-        <EuiControlBar controls={controls} {...requiredProps} />
-      )
+      mount(<EuiControlBar controls={controls} {...requiredProps} />)
     );
 
     expect(component).toMatchSnapshot();
