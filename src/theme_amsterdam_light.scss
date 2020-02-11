@@ -7,5 +7,9 @@
 // Components
 @import 'components/index';
 
+// Temporary component overrides
+// until Amsterdam is default
+@import 'themes/eui-amsterdam/overrides/index';
+
 // Packages
 @import '../packages/index';
